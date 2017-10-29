@@ -5,7 +5,8 @@ tictactoe = {
              1:' ', 2:' ', 3:' ',
              4:' ', 5:' ', 6:' ',
              7:' ', 8:' ', 9:' '
-            }   # the tic-tac-toe board
+            }   
+   # the tic-tac-toe board
 
 def draw_board():
     print ("   |   |   ")
