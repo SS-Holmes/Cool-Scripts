@@ -5,6 +5,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 '''
+
 email_address = 'your_email' # Please insert your mail address
 password_ = 'your_password' # Please insert your password
 print ('Remember to enter valid credentials to avoid unexpected results.')
@@ -26,7 +27,7 @@ except :
 browser.implicitly_wait(100)
 
 '''
-timeout = 21
+timeout = 29
 try :
     WebDriverWait(browser, timeout).until(EC.presence_of_element_located(browser.find_element_by_css_selector('div.T-I.J-J5-Ji.T-I-KE.L3')))
 except TimeoutException :
